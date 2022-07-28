@@ -8,8 +8,8 @@
 }
 
 .container{
-    margin: 15px;
-    width: auto;
+    margin: 15px 10px;
+    width: 95%;
     height: auto;
     border: solid 2px red;
 }
@@ -19,6 +19,7 @@
     justify-content: space-between;
     width: auto;
     height: 30px;
+    /* margin: auto; */
 }
 
 .logo a{
@@ -51,7 +52,7 @@
 
 .back-img{
     width: 345px;
-    height: 545px;
+    height: 105vh;
     background-image: url(/images/bg-img1.jpg);
     background-size: cover;
     background-position: center;
@@ -65,7 +66,7 @@
     position: absolute;
     top: 10%;
     left: 0%;
-    margin: 61px;
+    margin: 55px;
     box-sizing: border-box;
     background: rgba(28, 23, 21, 0.7);
     border-top: 5px solid #f03c02;
@@ -121,8 +122,8 @@
 }
 
 .head-para p{
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 21px;
+    line-height: 25px;
     opacity: 0.7;
     margin-bottom: 20px;
 }
@@ -130,8 +131,34 @@
 .second-button a{
     text-decoration: none;
     padding: 10px;
-
+    font-size: 11px;
+    color: #f03c02;
 }
+
+ .second-button{
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 2px;
+    transition: 0.4s;
+    margin: 10px;
+    border-radius: 4px;
+    border: 2px solid #f03c02;
+    color: #f03c02;
+    background: #fff;
+}
+
+.second-button:hover a{
+    color: #fff;  
+}
+.second-button:hover{
+    background-color: #f03c02;
+    transition: 0.5s;
+}  
 
 
 
@@ -160,8 +187,8 @@
     }
 
     .container{
-        margin: 15px;
-        width: auto;
+        margin: 15px 10px;
+        width: 95%;
         height: auto;
         border: solid 2px red;
     }
@@ -204,8 +231,8 @@
     }
     
     .back-img{
-        width: 553px;
-        height: 551px;
+        width: 100%;
+        height: 105vh;
         background-image: url(/images/bg-img1.jpg);
         background-size: cover;
         background-position: center;
@@ -217,7 +244,7 @@
         height: auto;
         width: auto;
         position: absolute;
-        top: 26%;
+        top: 31%;
         left: 0%;
         margin: 54px;
         box-sizing: border-box;
@@ -275,17 +302,27 @@
     }
     
     .head-para p{
-        font-size: 18px;
-        line-height: 21px;
-        opacity: 0.7;
+        font-size: 21px;
+        line-height: 25px;
+        opacity: 0.8;
         margin-bottom: 20px;
     }
     
-    .second-button a{
-        text-decoration: none;
-        padding: 10px;
+   
     
+    /* .second-button{
+        border-color: #f03c02;
+        padding: 10px;
     }
+    
+    .second-button:hover a{
+        color: #fff;  
+    }
+    
+    .second-button:hover{
+        background-color: #f03c02;
+        transition: 0.5s;
+    } */
 }
 
 
@@ -570,7 +607,85 @@
     }
 }
 
-@media(min-width:1115px){
+@media(min-width:1200px){
+    .back-img{
+        width: 100%;
+        height: 534px;
+        background-image: url(/images/bg-img1.jpg);
+        background-size: cover;
+        background-position: center;
+        box-sizing: border-box;
+        position: relative;
+    }
+
+    .fixed-container{
+        width:100%;
+        height: auto;
+        border: solid 2px black;
+        position: fixed;
+        z-index: 99;
+        background: #fff;
+    }
+
+    .container{
+        margin: 15px;
+        width: auto;
+        height: auto;
+        border: solid 2px red;
+    }
+    
+
+
+    .flex-container{
+        display: flex;
+        justify-content: space-between;
+        width: auto;
+        height: 30px;
+    }
+    .logo a{
+        text-decoration: none;
+        color: #2b2320;
+        font-size: 28px;
+        padding: 10px 0;
+        line-height: 1;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+
+    .navi a{
+        text-decoration: none;
+        margin: 10px;
+        font-family: "Open Sans", sans-serif;
+        color: #4d4643;
+    }
+
+    .navi li{
+        list-style: none;
+    }
+    
+    .navi ul{
+        display: flex;
+        margin: 10px;
+        display: none;
+    }
+
+    .blur{
+        height: auto;
+        width: auto;
+        position: absolute;
+        top: 26%;
+        left: 0%;
+        margin: 54px;
+        box-sizing: border-box;
+        background: rgba(28, 23, 21, 0.7);
+        border-top: 5px solid #f03c02
+    }
+
+    .navi i{
+        display: none;
+    }
+    
+    
    
 
 
